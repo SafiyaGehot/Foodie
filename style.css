@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  padding-left: 5rem;
+}
+
+.font h1 {
+  color: #333;
+  font-size: 5.5rem;
+}
+
+:root {
+  --dark: #000;
+  --light: #fff;
+  --primery: #286f6c;
+  --btn: #f45d48;
+  --heading: #232323;
+  --pragraph: #222525;
+}
+
+.main {
+  background: url(/imges/food-catering-05.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem;
+  height: 100vh;
+}
+
+.nav_bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 4rem;
+  width: 100%;
+  background: #fff;
+  box-shadow: 5px 0px 30px 10px #e8e8e8;
+}
+
+nav h1 {
+  font-size: 23px;
+  color: #333;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #7a7a7a;
+  font-size: 1.5rem;
+  padding: 0 1.5rem;
+  font-weight: 600;
+}
+
+nav i {
+  padding: 0 2rem;
+  font-size: 20px;
+  color: var(--dark);
+}
+
+.text {
+  padding: 20rem 0 0 10rem;
+  /* transform: translate(8%, 45%); */
+  width: fit-content;
+}
+
+.text h1 {
+  padding-bottom: 10px;
+  line-height: 7rem;
+  font-weight: 500;
+  font-family: "Abril Fatface", cursive;
+}
+
+.text p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 2em;
+  padding-top: 1rem;
+  color: #7a7a7a;
+  font-weight: 500;
+}
+
+.text a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 500;
+  background: #ff6d4a;
+  color: var(--light);
+  padding: 2rem 3rem;
+  margin: 3rem 0 6rem 0;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.text a:hover {
+  box-shadow: 3px 3px 10px #ff6d4a;
+}
+
+/* -=-=-=-=A=B=O=U=T=-=-=-= */
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+.detail img {
+  position: absolute;
+
+  left: 0;
+  top: 0;
+  z-index: -999;
+}
+
+.photo {
+  width: 45%;
+}
+
+.photo img {
+  width: 100%;
+}
+
+.detail {
+  position: relative;
+  padding: 8rem 5rem;
+  z-index: 10;
+}
+
+.detail h1 {
+  line-height: 7rem;
+  font-weight: 500;
+  font-family: "Abril Fatface", cursive;
+}
+
+.detail p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 2em;
+  padding-top: 1rem;
+  color: #7a7a7a;
+  font-weight: 500;
+}
+
+.detail a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 500;
+  background: #ff6d4a;
+  color: var(--light);
+  padding: 2rem 3rem;
+  margin: 3rem 0 6rem 0;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.detail a:hover {
+  box-shadow: 3px 3px 10px #ff6d4a;
+}
+
+.detail p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 2em;
+  padding-top: 1rem;
+  color: #7a7a7a;
+  font-weight: 500;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-= */
+.row_bg {
+  background: url(/imges/food-catering-06.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row0 {
+  padding: 20rem 0 0 10rem;
+  width: 50%;
+}
+
+.row0 h1 {
+  line-height: 7rem;
+  font-weight: 500;
+  font-family: "Abril Fatface", cursive;
+}
+
+.row0 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 2em;
+  padding-top: 1rem;
+  color: #7a7a7a;
+  font-weight: 500;
+}
+
+/* rows */
+.row1 {
+  padding: 10rem 10rem 0 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card1 {
+  padding: 3rem 4rem;
+  background: #ffffff;
+  width: 30%;
+  box-shadow: 0px 5px 20px #e4e4e4;
+}
+
+.card1 h1 {
+  font-size: 2rem;
+  color: #333;
+  line-height: 5rem;
+  font-weight: 500;
+  font-family: "Abril Fatface", cursive;
+}
+
+.card1 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2em;
+  padding-top: 1rem;
+  color: #7a7a7a;
+  font-weight: 500;
+}
+
+.card1 a {
+  color: #ff6d4a;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 15px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.row2 {
+  background: #f9f9fb;
+  padding-bottom: 7rem;
+}
+
+.talk {
+  background: url(/imges/food-catering-08.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8rem;
+}
+
+.center h1 {
+  font-weight: 500;
+  font-family: "Abril Fatface", cursive;
+}
+
+.center p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  line-height: 2em;
+  padding: 4rem 0;
+  color: #7a7a7a;
+  font-weight: 500;
+  width: 50%;
+}
+
+.center a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  background: #ff6d4a;
+  color: var(--light);
+  padding: 2rem 3rem;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.center a:hover {
+  box-shadow: 3px 3px 10px 1px #7a7a7a;
+}
+
+@media only screen and (max-width: 900px) {
+  nav ul {
+    display: none;
+  }
+
+  .center {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem;
+    position: relative;
+  }
+
+  .text > h1 {
+    font-size: 4rem;
+    padding-bottom: 3rem;
+  }
+
+  .number {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .num {
+    padding: 3rem;
+    margin: 0 auto;
+  }
+
+  .imag {
+    margin-top: 6rem;
+  }
+
+  .vcal {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    writing-mode: vertical-rl;
+    font-size: 19px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 6%;
+    transform: rotate(180deg);
+    color: var(--dark);
+    padding: 2rem;
+  }
+
+  .vcal span {
+    font-size: 1.5rem;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text {
+    padding-left: 2rem;
+    margin-top: 4rem;
+  }
+
+  .scroll {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .scroll img {
+    padding: 3rem 0;
+  }
+}
