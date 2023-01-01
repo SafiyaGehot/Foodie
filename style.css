@@ -368,11 +368,13 @@ nav i {
   font-size: 1.6rem;
 }
 
-.table {
+.sign {
   padding: 8rem 5rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+}
+
+.sign h1 {
+  text-align: center;
+  margin: 2rem 0;
 }
 
 .table1 input,
