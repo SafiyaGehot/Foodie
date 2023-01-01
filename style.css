@@ -326,6 +326,7 @@ nav i {
 }
 
 .testime {
+  border: 1px solid #000;
 }
 
 @media only screen and (max-width: 900px) {
