@@ -326,7 +326,27 @@ nav i {
 }
 
 .testime {
-  border: 1px solid #000;
+  padding: 2rem 10rem;
+}
+
+.tes_image {
+  padding-bottom: 3rem;
+}
+
+.pregrph {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pregrph p {
+  border: 1px solid #dadada;
+  line-height: 30px;
+  padding: 3rem;
+  color: #666;
+  font-size: 1.4rem;
+  width: 30%;
+  height: fit-content;
 }
 
 @media only screen and (max-width: 900px) {
