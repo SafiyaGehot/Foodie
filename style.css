@@ -368,16 +368,24 @@ nav i {
   font-size: 1.6rem;
 }
 
-form {
-  border: 1px solid #000;
+.table {
   padding: 8rem 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-form input {
-  outline: none;
+.table1 input,
+.table2 input {
   display: inline-block;
-  border: 1px solid #d1d1d1;
-  padding: 16px;
+  padding: 2rem 1.5rem;
+  width: 100%;
+  margin: 1rem 2rem;
+  outline: none;
+  border: none;
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+  letter-spacing: 2px;
 }
 
 @media only screen and (max-width: 900px) {
