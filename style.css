@@ -368,6 +368,18 @@ nav i {
   font-size: 1.6rem;
 }
 
+form {
+  border: 1px solid #000;
+  padding: 8rem 5rem;
+}
+
+form input {
+  outline: none;
+  display: inline-block;
+  border: 1px solid #d1d1d1;
+  padding: 16px;
+}
+
 @media only screen and (max-width: 900px) {
   nav ul {
     display: none;
