@@ -326,7 +326,7 @@ nav i {
 }
 
 .testime {
-  padding: 2rem 10rem;
+  padding: 8rem 10rem;
 }
 
 .tes_image {
@@ -347,6 +347,25 @@ nav i {
   font-size: 1.4rem;
   width: 30%;
   height: fit-content;
+}
+
+.number {
+  background: #ff6d4a;
+  display: flex;
+  justify-content: space-between;
+  padding: 6rem 10rem;
+  /* margin-top: 5rem; */
+}
+
+.number h1 {
+  color: #fff;
+}
+
+.number p {
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.6rem;
 }
 
 @media only screen and (max-width: 900px) {
