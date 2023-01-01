@@ -13,12 +13,15 @@ html {
 }
 
 .container {
-  padding-left: 5rem;
+  padding: 2rem 10rem;
 }
 
 .font h1 {
+  letter-spacing: 2px;
   color: #333;
+  font-weight: 400;
   font-size: 5.5rem;
+  font-family: "Abril Fatface", cursive;
 }
 
 :root {
@@ -87,7 +90,9 @@ nav i {
   padding-bottom: 10px;
   line-height: 7rem;
   font-weight: 500;
+  font-size: 7rem;
   font-family: "Abril Fatface", cursive;
+  color: #333;
 }
 
 .text p {
@@ -149,12 +154,6 @@ nav i {
   z-index: 10;
 }
 
-.detail h1 {
-  line-height: 7rem;
-  font-weight: 500;
-  font-family: "Abril Fatface", cursive;
-}
-
 .detail p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -201,12 +200,6 @@ nav i {
 .row0 {
   padding: 20rem 0 0 10rem;
   width: 50%;
-}
-
-.row0 h1 {
-  line-height: 7rem;
-  font-weight: 500;
-  font-family: "Abril Fatface", cursive;
 }
 
 .row0 p {
@@ -280,11 +273,6 @@ nav i {
   padding: 8rem;
 }
 
-.center h1 {
-  font-weight: 500;
-  font-family: "Abril Fatface", cursive;
-}
-
 .center p {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -335,6 +323,9 @@ nav i {
   color: #616161;
   font-size: 2.5rem;
   padding: 0 2rem;
+}
+
+.testime {
 }
 
 @media only screen and (max-width: 900px) {
