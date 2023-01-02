@@ -377,17 +377,42 @@ nav i {
   margin: 2rem 0;
 }
 
+.table {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.table1,
+.table2 {
+  width: 100%;
+  margin: 4rem auto;
+}
+
 .table1 input,
 .table2 input {
-  display: inline-block;
+  display: flex;
   padding: 2rem 1.5rem;
-  width: 100%;
-  margin: 1rem 2rem;
   outline: none;
-  border: none;
-  border: 1px solid #ff0000;
-  border-radius: 5px;
+  /* border: none; */
+  border: 1px solid #959595;
+  border-radius: 3px;
   letter-spacing: 2px;
+  width: 90%;
+  margin: 4rem auto;
+}
+
+textarea {
+  display: block;
+  padding: 2rem 1.5rem;
+  border-radius: 3px;
+  letter-spacing: 2px;
+  outline: none;
+  border: 1px solid #979797;
+  width: 76%;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 900px) {
