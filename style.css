@@ -396,12 +396,12 @@ nav i {
   display: flex;
   padding: 2rem 1.5rem;
   outline: none;
-  /* border: none; */
   border: 1px solid #959595;
   border-radius: 3px;
   letter-spacing: 2px;
   width: 90%;
   margin: 4rem auto;
+  font-size: 11px;
 }
 
 textarea {
@@ -413,6 +413,26 @@ textarea {
   border: 1px solid #979797;
   width: 76%;
   margin: 0 auto;
+}
+
+.sign a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 500;
+  background: #ff6d4a;
+  color: var(--light);
+  padding: 2rem 3rem;
+  transition: 0.3s;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13%;
+  margin: 4rem auto;
+}
+
+.sign a:hover {
+  box-shadow: 3px 3px 10px #ff6d4a;
 }
 
 @media only screen and (max-width: 900px) {
